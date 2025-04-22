@@ -2,42 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome | Ankit</title>
   <link rel="stylesheet" href="style.css" />
   <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.483/build/spline-viewer.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 </head>
+
 <body>
 
-<nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-<header class="hero">
-  <h1>Hi, I'm Ankit kushwah!</h1>
-  <p>Welcome to my colorful world of creativity and code!</p>
-  <img src="images/myphoto.jpg" alt="Ankit" class="profile-pic" />
-</header>
+  <header class="hero">
+    <h1>Hi, I'm Ankit Kushwah!</h1>
+    <p>Welcome to my colorful world of creativity and code!</p>
+    <img src="images/myphoto.jpg" alt="Ankit" class="profile-pic" />
+  </header>
 
-<section class="card">
-  <h2>Here’s a cool 3D animation!</h2>
-  <spline-viewer url="https://prod.spline.design/U60L6uFTIJ5KcB98/scene.splinecode"></spline-viewer>
-</section>
+  <!-- About Me Section -->
+  <section class="card centered about-text">
+    <h2>👨‍💻 About Me</h2>
+    <p>Hello! My name is <strong>Ankit Kushwah</strong>, and I'm also known on social media as <strong>Cyber Unkit</strong>.</p>
+    <p>I come from a small village, but my dreams are big. I'm currently in class 12 and on a mission to become a skilled ethical hacker. 🔐</p>
+    <p>I’m learning cybersecurity and ethical hacking because I want to make the internet a safer place for everyone. This website is where I’ll share my progress, projects, and everything I discover along the way!</p>
+  </section>
 
-<section class="card">
-  <h2>What I Love</h2>
-  <p>I’m passionate about blending design with technology. I create vibrant websites that are fun to use and beautiful to see!</p>
-</section>
+  <!-- Interests Section -->
+  <section class="card">
+    <h2>What I Love</h2>
+    <p>I’m passionate about blending design with technology. I create vibrant websites that are fun to use and beautiful to see!</p>
+  </section>
 
-<footer>&copy;2025 @Cyber_Unkit</footer>
-<script src="script.js"></script>
+  <!-- Cybersecurity Section -->
+  <section class="card">
+    <h2>Cybersecurity</h2>
+    <p>Exploring the world of cybersecurity is my passion. Every day, I learn something new and exciting about ethical hacking and protecting digital spaces.</p>
+  </section>
+
+  <!-- Contact Section with Animated Icons and Usernames -->
+  <section class="card centered">
+    <h2>📬 Connect With Me</h2>
+    <p>Let's stay in touch! You can find me on these platforms:</p>
+    <div style="display: flex; justify-content: center; gap: 40px; margin-top: 1.5rem; flex-wrap: wrap;">
+
+      <div style="text-align: center;">
+        <a href="https://instagram.com/cyber_unkit" target="_blank" style="font-size: 3rem; color: #E1306C; transition: transform 0.3s;">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <div style="margin-top: 8px; font-size: 1rem;">@cyber_unkit</div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="https://t.me/cyber_unkit" target="_blank" style="font-size: 3rem; color: #0088cc; transition: transform 0.3s;">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <div style="margin-top: 8px; font-size: 1rem;">@cyber_unkit</div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="mailto:kushwahankit9575@gmail.com" target="_blank" style="font-size: 3rem; color: #EA4335; transition: transform 0.3s;">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <div style="margin-top: 8px; font-size: 1rem;">kushwahankit9575@gmail.com</div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="https://github.com/ankit9575" target="_blank" style="font-size: 3rem; color: #333; transition: transform 0.3s;">
+          <i class="fab fa-github"></i>
+        </a>
+        <div style="margin-top: 8px; font-size: 1rem;">@ankit9575</div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>&copy; 2025 @Cyber_Unkit</footer>
+  <script src="script.js"></script>
 </body>
 </html>
