@@ -86,5 +86,26 @@
 
   <footer>&copy; 2025 @Cyber_Unkit</footer>
   <script src="script.js"></script>
+
+
+<!-- Paste this just before the closing </body> tag in your index.html -->
+<audio id="bg-music" autoplay muted loop>
+  <source src="music/background.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  window.addEventListener('load', () => {
+    const music = document.getElementById('bg-music');
+    setTimeout(() => {
+      music.muted = false;
+      music.play().catch((e) => {
+        console.warn("Autoplay may be blocked:", e);
+      });
+    }, 1000);
+  });
+</script>
+
+
 </body>
 </html>
